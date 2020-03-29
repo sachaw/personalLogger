@@ -1,0 +1,13 @@
+{
+  "name": "personal-logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^2.3.2"
+  },
+  "scripts": {
+    "log": "node index"
+  }
+}
