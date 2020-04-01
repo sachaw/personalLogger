@@ -5,7 +5,7 @@ This project is used for converting data from `PersonalSheet.xlsx` into the form
 Two files are requred (ones provided are fine):
 
 - `Personal.json` which can be obtained by using the tools provided in Rei's [repo](https://github.com/Reisyukaku/SwShMod)
-- `PersonalSheet.xlsx` see #assets on the PokeModding discord
+- `PersonalSheet.csv` see #assets on the PokeModding discord, file needs to be converted from xlsx to csv
 
 # How To:
 
