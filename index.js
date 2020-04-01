@@ -206,7 +206,7 @@ createReadStream("PersonalSheet.csv")
       }
 
       // FormeSprite
-      personalEntry.FormeSprite = entry.FormSprite;
+      personalEntry.FormeSprite = parseInt(entry.FormSprite);
       if (typeof personalEntry.FormeSprite === "undefined") {
         console.log("Forme Sprite is undefined for pokemon: " + entry.Name);
       }
@@ -267,13 +267,13 @@ createReadStream("PersonalSheet.csv")
       }
 
       // IsGalarianForm
-      personalEntry.IsGalarianForm = !!entry.IsGalarianForm;
+      personalEntry.IsGalarianForm = !!parseInt(entry.IsGalarianForm);
       if (typeof personalEntry.IsGalarianForm === "undefined") {
         console.log("Is Galarian Form is undefined for pokemon: " + entry.Name);
       }
 
       // IsBoxLegend
-      personalEntry.IsBoxLegend = !!entry.IsBoxLegend;
+      personalEntry.IsBoxLegend = !!parseInt(entry.IsBoxLegend);
       if (typeof personalEntry.IsBoxLegend === "undefined") {
         console.log("Is Box Legend is undefined for pokemon: " + entry.Name);
       }
